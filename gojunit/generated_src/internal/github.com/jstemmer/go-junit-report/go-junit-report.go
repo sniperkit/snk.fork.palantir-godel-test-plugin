@@ -1,18 +1,23 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package amalgomated
 
 import (
-	"github.com/palantir/godel-test-plugin/gojunit/generated_src/internal/github.com/jstemmer/go-junit-report/amalgomated_flag"
 	"fmt"
 	"os"
 
-	"github.com/palantir/godel-test-plugin/gojunit/generated_src/internal/github.com/jstemmer/go-junit-report/parser"
+	"github.com/sniperkit/snk.fork.palantir-godel-test-plugin/gojunit/generated_src/internal/github.com/jstemmer/go-junit-report/amalgomated_flag"
+	"github.com/sniperkit/snk.fork.palantir-godel-test-plugin/gojunit/generated_src/internal/github.com/jstemmer/go-junit-report/parser"
 )
 
 var (
-	noXMLHeader	bool
-	packageName	string
-	goVersionFlag	string
-	setExitCode	bool
+	noXMLHeader   bool
+	packageName   string
+	goVersionFlag string
+	setExitCode   bool
 )
 
 func init() {

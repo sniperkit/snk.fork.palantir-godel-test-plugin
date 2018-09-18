@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 packages:
   gojunitreport:
     main: github.com/jstemmer/go-junit-report

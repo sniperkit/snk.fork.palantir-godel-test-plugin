@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 amalgomators:
   gojunit:
     config: gojunit.yml
